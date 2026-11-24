@@ -9,7 +9,6 @@ const SELF_REPO = 'noah-erp';
   standalone: true,
   imports: [NoahSidebarComponent],
   templateUrl: './sidenav.component.html',
-  styleUrl: './sidenav.component.scss',
 })
 export class SidenavComponent {
   sections: NoahSidebarSection[] = [];
