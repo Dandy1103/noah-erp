@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4208",
+    "start": "node scripts/dev.mjs erp 4309",
     "build": "ng build"
   },
   "dependencies": {
