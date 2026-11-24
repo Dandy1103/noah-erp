@@ -40,7 +40,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": { "port": 4208 },
+          "options": { "proxyConfig": "proxy.conf.mjs", "port": 4208 },
           "configurations": {
             "production": { "buildTarget": "noah-erp:build:production" },
             "development": { "buildTarget": "noah-erp:build:development" }
